@@ -1,99 +1,132 @@
-body{
-	background:url(background.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Pacifico', 'cursive';
 }
-.menu-bar{
-  background: rgb(2, 2, 185);
-  text-align: center;
-  border-radius: 5px;
-} 
-.menu-bar ul li a{
-  text-decoration: none;
-  color: white;
-  font: bold;
+
+.menu-bar {
+    background: rgb(92, 92, 169);
+    text-align: center;
+    border-radius: 35px;
+    border: 1px white solid;
 }
-.menu-bar ul{
-  display: inline-flex;
-  list-style: none;
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font: bold;
+
 }
-.menu-bar ul li{
-  width :100px;
-  margin: 15px;
-  padding:10px;
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
 }
-.active,.menu-bar ul li:hover{
-  background:rgb(102, 102, 245);
-  border-radius: 5px;
+
+.menu-bar ul li {
+    width: 100px;
+    margin: 15px;
+    padding: 10px;
 }
+
+.active,
+.menu-bar ul li:hover {
+    background: rgb(102, 102, 245);
+    border-radius: 5px;
+}
+
 .sub-menu {
-  display: none;
+    display: none;
 }
 
 .menu-bar ul li:hover .sub-menu {
-  display: block;
-  position: absolute;
-  background:blue;
-  margin-top: 15px;
-  margin-left: -15px;
- 
+    display: block;
+    position: absolute;
+    background: rgb(102, 102, 245);
+    margin-top: 15px;
+    margin-right: 25px;
+    border-radius: 5px;
+
+
+
 }
 
-.menu-bar ul li:hover .sub-menu ul{
-   display: block;
-   margin: 10px;
-  
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+
 }
 
-.menu-bar ul li:hover .sub-menu ul li{
-   border-bottom: 1px dotted white;
-   background: transparent;
-   margin: 10px;
+.menu-bar ul li:hover .sub-menu ul li {
+    border-bottom: 1px dotted white;
+    background: transparent;
+    margin: 10px;
 }
 
-.menu-bar ul li:hover .sub-menu ul li:last-child{
-	border-bottom: none;
+.menu-bar ul li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
 }
 
-.menu-bar ul li:hover .sub-menu ul li a:hover{
-	color: black;
+.menu-bar ul li:hover .sub-menu ul li a:hover {
+    color: black;
 }
-img{
-	margin-left: 35%;
-	margin-top: 100px;
-}
-.Content{
-	color:rgb(3, 3, 88);
-	text-align: center;
-	font-size: 80px;
-}
-.travel_tips{
-	font-family: sans-serif;
-	font-size: 40px;
-	text-align: center;
-}
-h2{
-	font-size: 40px;
-}
-img{
-	width: 30%;
-	height: 30%;
-	margin-left: 10px;
-	margin-top: 10px;
-	
-}
-h3{
-  padding: 5px;
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  word-spacing: 2em;
-}
-legend{
-  font-size: 50px;
-  color: white;
-}
-.place li a{
-text-decoration: none;
-font-size: 30px;
 
+img {
+    margin-left: 35%;
+    margin-top: 100px;
+}
+
+.Content {
+    color: rgb(3, 3, 88);
+    text-align: center;
+    font-size: 80px;
+}
+
+.travel_tips {
+    font-family: 'Pacifico', 'cursive';
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+h3 {
+    padding: 5px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2em;
+}
+
+legend {
+    font-size: 50px;
+    color: white;
+}
+
+.place li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: bisque;
+
+}
+
+p {
+    font-size: 40px;
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
